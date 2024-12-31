@@ -789,29 +789,14 @@ demo room scroller-->
 
     <!-- Template Javascript -->
     <script src="js/main.js"></script>
-    <!--<script>
-        const scroller = document.getElementById('scroller');
-    const prev = document.getElementById('prev');
-    const next = document.getElementById('next');
-    const rooms = document.querySelectorAll('.room');
-    const totalRooms = rooms.length;
-    const roomWidth = document.querySelector('.room').offsetWidth;
-    let currentIndex = 0;
-
-    function updateScrollerPosition() {
-        scroller.style.transform = `translateX(-${currentIndex * roomWidth}px)`;
-    }
-
-    next.addEventListener('click', () => {
-        currentIndex = (currentIndex + 1) % totalRooms;
-        updateScrollerPosition();
+    <script>
+    window.addEventListener("load", function () {
+        const spinner = document.getElementById("spinner");
+        if (spinner) {
+            spinner.style.display = "none";
+        }
     });
-
-    prev.addEventListener('click', () => {
-        currentIndex = (currentIndex - 1 + totalRooms) % totalRooms;
-        updateScrollerPosition();
-    });
-    </script>-->
+</script>
     
 </body>
 
