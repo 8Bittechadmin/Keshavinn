@@ -615,8 +615,24 @@ img.carou-img {
         font-size: 0.9rem; /* Adjust font size for navigation links */
     }
 
+    /* Body */
+
+    #index-body {
+        margin: auto;
+        margin-right: 0px;
+    }
+
     #about-body {
         margin: auto;
+        margin-right: 0px;
+    }
+
+    #room-body {
+        margin: auto;
+        margin-right: 0px;
+    }
+
+    #gallery-body {
         margin-right: 0px;
     }
 
