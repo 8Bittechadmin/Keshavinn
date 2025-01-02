@@ -1025,7 +1025,7 @@ img.carou-img {
     }
 
     #popup-content {
-        top: 11%;
+        top: auto;
         position: fixed;
         max-width: 100%;
         max-height: 100%;
@@ -1034,10 +1034,10 @@ img.carou-img {
     #popupImage {
         width: auto;
         height: auto;
-        max-width: 60%;
+        max-width: 78%;
         max-height: 100%;
         display: block;
-        margin: 0 auto;
+        margin-top: 10%;
     }
 
     #canvas {
