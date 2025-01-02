@@ -627,7 +627,7 @@ img.carou-img {
 
 /* Room Card Styling */
 #info-room .row {
-    background: #ffffff; /* White background for card effect */
+    background: #dfdfdf36; /* White background for card effect */
     border-radius: 10px;
     padding: 20px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
