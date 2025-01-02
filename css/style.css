@@ -608,9 +608,9 @@ img.carou-img {
  /* General container styling */
 
  #info-room {
-    background-color: #f8f9fa; /* Light background for better contrast */
-    border-radius: 10px; /* Smooth rounded edges */
-    padding: 5px;
+    background-color: #f8f9fa00; /* Light background for better contrast */
+    border-radius: 5px; /* Smooth rounded edges */
+    padding: 0%;
 }
 
 /* Section title and headers */
@@ -896,11 +896,11 @@ img.carou-img {
 
     #info-room .row {
         flex-direction: column;
-        padding: 15px;
+        padding: 0px;
     }
 
     #info-room h5 {
-        font-size: 17px;
+        font-size: 15px;
     }
 
     #info-room p {
