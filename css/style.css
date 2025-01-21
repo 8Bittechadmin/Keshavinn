@@ -345,6 +345,16 @@ h1 {
     opacity: 1;
 }
 
+.form-control {
+    color: #0000008f;
+    padding: 1rem .75rem;
+}
+
+select#select1, #select3 {
+    padding: 1rem .75rem;
+    color: #0000008f;
+}
+
 /* @media (max-height: 768px) {
     video.video {
         height: 300px;
